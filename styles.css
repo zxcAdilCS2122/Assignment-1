@@ -1,0 +1,57 @@
+body {
+  background-color: #efe5f6;
+  margin: 0;
+  padding: 0;
+}
+
+.image-wr {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  background-color: tomato;
+  height: 2px;
+}
+
+h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.Logo, .Menu_style {
+  display: inline-block;
+}
+
+.Menu_style li {
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Menu_style a {
+  margin-right: 25px;
+  vertical-align: middle;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+}
+
+.Menu_style a:hover {
+  color: #B22222;
+}
+
+.Logo {
+  vertical-align: middle;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+}
